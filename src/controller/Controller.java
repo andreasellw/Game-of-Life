@@ -68,7 +68,7 @@ public class Controller implements EventHandler {
             view.bRun.getStyleClass().add("button");
             view.bRun.getStyleClass().add("bRun");
             view.bRun.setTooltip(new Tooltip("Run"));
-//            System.out.println(view.bRun.getStyleClass()+ " styleclass after setOnFinished.");
+//            System.out.println(view.bRun.getStyleClass()+ " styleclass after setOnFinished.")
             view.isPlaying = new SimpleBooleanProperty(false);
         });
         // Listener to height UI size, to resize canvas dynamically
@@ -202,6 +202,7 @@ public class Controller implements EventHandler {
     public void handle(Event event) {
         // event from reset button
         if (event.getSource().equals(view.bReset)) {
+            view.memory.clear();
             world.resetBoard();
             view.timeLine.stop();
             view.bRun.getStyleClass().remove("bPause");
@@ -209,7 +210,6 @@ public class Controller implements EventHandler {
             view.bRun.setTooltip(new Tooltip("Run"));
             view.isPlaying = new SimpleBooleanProperty(false);
             view.currentGeneration.set(0);
-//            view.memory.removeAll();
             view.aliveCells.set(this.world.getPositions().size());
         }
         // event from fastForward button
@@ -247,6 +247,7 @@ public class Controller implements EventHandler {
                 view.inputPath = openFile.getPath();
             }
             Object[] tmp = InputOutput.readFile(view.inputPath);
+            view.memory.clear();
             this.world = new BooleanModel((int) tmp[0], (int) tmp[1], (ArrayList<Integer[]>) tmp[2]);
             this.world.setTorus(view.torus.getValue());
             this.world.addObserver(this.view);
