@@ -1,0 +1,50 @@
+.button{
+    -fx-pref-height: 35px;
+    -fx-pref-width: 40px;
+    -fx-border-insets: 0px;
+    -fx-background-insets: 0px;
+    -fx-background-color: inherit;
+}
+#bReset{
+    -fx-background-image: url('ic_delete_forever_48pt_3x.png');
+    -fx-background-position: center;
+    -fx-background-size: 30px;
+}
+.bPause{
+    -fx-background-image: url('ic_pause_48pt_3x.png');
+    -fx-background-position: center;
+    -fx-background-size: 30px;
+}
+.bRun{
+    -fx-background-image: url('ic_play_arrow_48pt_3x.png');
+    -fx-background-position: center;
+    -fx-background-size: 30px;
+}
+#bNext{
+    -fx-background-image: url('ic_skip_next_48pt_3x.png');
+    -fx-background-position: center;
+    -fx-background-size: 30px;
+}
+#bFastForward{
+    -fx-background-image: url('ic_fast_forward_48pt_3x.png');
+    -fx-background-position: center;
+    -fx-background-size: 30px;
+}
+#tfGeneration{
+    -fx-pref-height: 35px;
+    -fx-pref-width: 40px;
+}
+.text-field {
+    -fx-alignment: center;
+}
+
+.text-field:focused {
+    -fx-alignment: center-left;
+}
+.slider{
+    -fx-padding: 0px;
+}
+.toggle-button{
+    -fx-pref-height: 35px;
+}
+
