@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>controller.CLI</OriginalElement>
+  <nodes>
+    <node x="1193.4233436055467" y="1075.3050847457628">javafx.event.EventHandler</node>
+    <node x="528.7704160246534" y="950.6302003081664">java.util.Observer</node>
+    <node x="4.0" y="323.0">model.BitSetModel</node>
+    <node x="995.4422187981506" y="87.91217257318931">model.InputOutput</node>
+    <node x="1164.1417565485363" y="691.3158705701079">model.EventTypes</node>
+    <node x="8.7704160246534" y="1208.1302003081664">javafx.application.Application.Parameters</node>
+    <node x="1240.6417565485363" y="232.3158705701079">java.io.Serializable</node>
+    <node x="996.4036979969183" y="-10.75500770416005">model.ModelEvent</node>
+    <node x="1141.0400616332818" y="1282.8813559322036">controller.CLI</node>
+    <node x="1265.6733436055467" y="995.3050847457628">java.lang.FunctionalInterface</node>
+    <node x="149.2704160246534" y="839.6302003081664">javafx.application.Application</node>
+    <node x="1140.9233436055467" y="1177.3050847457628">controller.Controller</node>
+    <node x="1127.6733436055467" y="995.3050847457628">java.util.EventListener</node>
+    <node x="432.7704160246534" y="1163.6302003081664">view.View</node>
+    <node x="485.0" y="323.0">model.BooleanModel</node>
+    <node x="1015.1417565485363" y="323.3158705701079">java.lang.Enum</node>
+    <node x="223.7704160246534" y="1230.6302003081664">GameOfLife</node>
+    <node x="1059.6417565485363" y="221.3158705701079">java.lang.Comparable</node>
+    <node x="0.0" y="0.0">model.Buildable</node>
+    <node x="604.25" y="11.0">java.util.Observable</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="javafx.application.Application.Parameters" target="javafx.application.Application">
+      <point x="0.0" y="-59.5" />
+      <point x="106.2704160246534" y="1138.6302003081664" />
+      <point x="205.60374935798671" y="1138.6302003081664" />
+      <point x="-112.66666666666669" y="137.0" />
+    </edge>
+    <edge source="model.BitSetModel" target="model.Buildable">
+      <point x="-115.25" y="-181.0" />
+      <point x="-119.25" y="136.5" />
+    </edge>
+    <edge source="controller.Controller" target="javafx.event.EventHandler">
+      <point x="0.0" y="-37.5" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="javafx.event.EventHandler" target="java.lang.FunctionalInterface">
+      <point x="35.75" y="-26.0" />
+      <point x="1300.6733436055467" y="1050.3050847457628" />
+      <point x="1343.1733436055467" y="1050.3050847457628" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="javafx.event.EventHandler" target="java.util.EventListener">
+      <point x="-35.75" y="-26.0" />
+      <point x="1229.1733436055467" y="1050.3050847457628" />
+      <point x="1186.6733436055467" y="1050.3050847457628" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="model.EventTypes" target="java.lang.Enum">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="159.0" />
+    </edge>
+    <edge source="java.lang.Enum" target="java.io.Serializable">
+      <point x="100.75" y="-159.0" />
+      <point x="1317.3917565485363" y="298.3158705701079" />
+      <point x="1293.1417565485363" y="298.3158705701079" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="view.View" target="javafx.application.Application">
+      <point x="-74.5" y="-104.0" />
+      <point x="507.2704160246534" y="1138.6302003081664" />
+      <point x="430.9370826913201" y="1138.6302003081664" />
+      <point x="112.66666666666669" y="137.0" />
+    </edge>
+    <edge source="model.BooleanModel" target="java.util.Observable">
+      <point x="118.75" y="-181.0" />
+      <point x="79.0" y="125.5" />
+    </edge>
+    <edge source="model.BitSetModel" target="java.util.Observable">
+      <point x="115.25" y="-181.0" />
+      <point x="349.75" y="303.0" />
+      <point x="683.25" y="303.0" />
+      <point x="-79.0" y="125.5" />
+    </edge>
+    <edge source="view.View" target="java.util.Observer">
+      <point x="74.5" y="-104.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="java.lang.Enum" target="java.lang.Comparable">
+      <point x="-100.75" y="-159.0" />
+      <point x="1115.8917565485363" y="298.3158705701079" />
+      <point x="1140.1417565485363" y="298.3158705701079" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="GameOfLife" target="javafx.application.Application">
+      <point x="0.0" y="-37.0" />
+      <point x="0.0" y="137.0" />
+    </edge>
+    <edge source="model.BooleanModel" target="model.Buildable">
+      <point x="-118.75" y="-181.0" />
+      <point x="603.75" y="293.0" />
+      <point x="357.75" y="293.0" />
+      <point x="119.25" y="136.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.4560787069571328" x="780.5608628659476" y="381.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>controller.CLI</OriginalElement>
+  <nodes>
+    <node x="1485.75" y="2023.0">javafx.event.EventHandler</node>
+    <node x="1381.0" y="155.5">java.util.Observer</node>
+    <node x="12.0" y="2289.0">model.BitSetModel</node>
+    <node x="1758.0" y="1943.0">model.InputOutput</node>
+    <node x="1086.5" y="2458.0">model.EventTypes</node>
+    <node x="0.0" y="1096.0">javafx.application.Application.Parameters</node>
+    <node x="1194.5" y="1954.0">java.io.Serializable</node>
+    <node x="2044.0" y="1943.0">model.ModelEvent</node>
+    <node x="2318.0" y="1943.0">controller.CLI</node>
+    <node x="1558.0" y="1943.0">java.lang.FunctionalInterface</node>
+    <node x="53.0" y="0.0">javafx.application.Application</node>
+    <node x="1454.25" y="2125.0">controller.Controller</node>
+    <node x="1420.0" y="1943.0">java.util.EventListener</node>
+    <node x="424.0" y="413.0">view.View</node>
+    <node x="461.0" y="2289.0">model.BooleanModel</node>
+    <node x="966.0" y="2045.0">java.lang.Enum</node>
+    <node x="215.0" y="1118.5">GameOfLife</node>
+    <node x="1013.5" y="1943.0">java.lang.Comparable</node>
+    <node x="0.0" y="1954.5">model.Buildable</node>
+    <node x="520.25" y="1943.0">java.util.Observable</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="javafx.application.Application.Parameters" target="javafx.application.Application">
+      <point x="0.0" y="-59.5" />
+      <point x="97.5" y="388.0" />
+      <point x="138.5" y="388.0" />
+      <point x="-171.0" y="181.5" />
+    </edge>
+    <edge source="model.BitSetModel" target="model.Buildable">
+      <point x="-107.25" y="-192.5" />
+      <point x="-119.25" y="136.5" />
+    </edge>
+    <edge source="controller.Controller" target="javafx.event.EventHandler">
+      <point x="0.0" y="-71.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="javafx.event.EventHandler" target="java.lang.FunctionalInterface">
+      <point x="35.75" y="-26.0" />
+      <point x="1593.0" y="1998.0" />
+      <point x="1635.5" y="1998.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="javafx.event.EventHandler" target="java.util.EventListener">
+      <point x="-35.75" y="-26.0" />
+      <point x="1521.5" y="1998.0" />
+      <point x="1479.0" y="1998.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="model.EventTypes" target="java.lang.Enum">
+      <point x="0.0" y="-48.0" />
+      <point x="0.0" y="181.5" />
+    </edge>
+    <edge source="java.lang.Enum" target="java.io.Serializable">
+      <point x="102.25" y="-181.5" />
+      <point x="1272.75" y="2020.0" />
+      <point x="1247.0" y="2020.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="view.View" target="javafx.application.Application">
+      <point x="-361.4999999999999" y="-742.5" />
+      <point x="785.5000000000001" y="388.0" />
+      <point x="480.5" y="388.0" />
+      <point x="171.0" y="181.5" />
+    </edge>
+    <edge source="model.BooleanModel" target="java.util.Observable">
+      <point x="115.0" y="-192.5" />
+      <point x="95.25" y="148.0" />
+    </edge>
+    <edge source="model.BitSetModel" target="java.util.Observable">
+      <point x="107.25" y="-192.5" />
+      <point x="333.75" y="2269.0" />
+      <point x="615.5" y="2269.0" />
+      <point x="-95.25" y="148.0" />
+    </edge>
+    <edge source="view.View" target="java.util.Observer">
+      <point x="361.5000000000001" y="-742.5" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="java.lang.Enum" target="java.lang.Comparable">
+      <point x="-102.25" y="-181.5" />
+      <point x="1068.25" y="2020.0" />
+      <point x="1094.0" y="2020.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="GameOfLife" target="javafx.application.Application">
+      <point x="0.0" y="-37.0" />
+      <point x="0.0" y="181.5" />
+    </edge>
+    <edge source="model.BooleanModel" target="model.Buildable">
+      <point x="-115.0" y="-192.5" />
+      <point x="576.0" y="2259.0" />
+      <point x="357.75" y="2259.0" />
+      <point x="119.25" y="136.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.24090571640683" x="1252.5" y="1337.0" />
+  <SelectedNodes>
+    <node>controller.CLI</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
