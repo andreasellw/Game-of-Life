@@ -415,15 +415,12 @@ public class View extends Application implements Observer {
             final ModelEvent event = (ModelEvent) arg;
             switch (event.getType()) {
                 case RESET_BOARD:
-//                    System.out.println("UPDATE: RESET_BOARD");
                     refresh(model.getPositions());
                     break;
                 case UPDATED_BOARD:
-//                    System.out.println("UPDATE: UPDATED_BOARD");
                     refresh(model.getPositions());
                     break;
                 case CHANGE_SIZE:
-//                    System.out.println("UPDATE: CHANGE_SIZE");
                     resizeCanvas(model.getXLength(), model.getYLength());
                     refresh(model.getPositions());
                     break;
