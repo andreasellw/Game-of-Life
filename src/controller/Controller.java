@@ -90,7 +90,7 @@ public class Controller implements EventHandler {
             if (event.getButton() == MouseButton.PRIMARY && event.getX() > 0 && event.getX() < view.canvas.widthProperty().intValue() && event.getY() > 0 && event.getY() < view.canvas.heightProperty().intValue()) {
                 int x = (int) event.getX();
                 int y = (int) event.getY();
-                System.out.println(x + ", " + y);
+//                System.out.println(x + ", " + y);
                 int xc = x / (int) view.cellSize;
                 int yc = y / (int) view.cellSize;
                 this.world.toggleCell(xc, yc);
